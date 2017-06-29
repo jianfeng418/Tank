@@ -405,6 +405,14 @@
 					   if(that.live > 0){
 						   that.relive();
 						   
+					   }else {
+						   if(that.id == '#myTank'){
+							   $('#gameOver').css({'display':'block',
+								'left':gameWidth/2-30,
+								'top':gameHeight/2
+								});
+								setTimeout('location.reload()',1000);
+						   }
 					   }
 				   }
 			   }
