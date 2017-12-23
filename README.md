@@ -1,3 +1,39 @@
 # Tank
 浏览器直接打开tank.html运行。
 W S A D按键分别控制上下左右坦克移动，J按键发出子弹。
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>tank</title>
+    <link rel="stylesheet" type="text/css" href="./css/tank.css">
+    
+    <script type="text/javascript" src="./jquery.min.js"></script>
+    <script type="text/javascript" src="./tank.js"></script>
+    
+     
+</head>
+<body>
+    <div id="gameDiv" >
+        <div id="wall" class="wall" style="width:130px;height:130px">
+	       
+        </div>
+		<div id= "info"><p><span>击毁数量：</span> <span id="number">0</span> </p>
+	    		<p>WSAD 控制坦克上下左右移动， J 控制坦克发出子弹</p>
+	    	</div>
+		<div id = "gameOver"></div>
+        <div id="stone" class="stone" style="width:130px;height:130px" ></div>
+        <div id="home" class = "homeClass" ></div>
+        <div id="myTank"></div>
+        <div id="enemyTank0" class="enemyTank" style="display:none"></div>
+		<div id="enemyTank1" class="enemyTank" style="display:none"></div>
+		<div id="enemyTank2" class="enemyTank" style="display:none"></div>
+		<div id="enemyTank3" class="enemyTank" style="display:none"></div>
+    </div>
+   <script>
+ 
+   </script>
+</body>
+</html>
